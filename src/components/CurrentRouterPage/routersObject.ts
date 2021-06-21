@@ -3,7 +3,7 @@ import oneRoute from "../../img/oneRoute.png";
 export const routersObject = [
   {
     id: 0,
-    category: 1,
+    category: 0,
     url: oneRoute,
     name: "МАРШРУТ “ЖИВОПИСНЫЙ”",
     time: "0:15",

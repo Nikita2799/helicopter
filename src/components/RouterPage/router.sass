@@ -15,7 +15,7 @@
         border-left: 1px solid #000
         li
             padding-left: 8px
-            span
+            .link-menu
                 text-decoration: none
                 color: #000
                 font-size: 22px
@@ -26,3 +26,22 @@
                 cursor: pointer
                 &:hover
                     color: #D6B33F
+            .active-link
+                color: #D6B33F
+.container-content
+    width: 80%
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    .item-routers
+        width: 225px
+        .image-wrapper
+            width: 100%
+            img
+                width: 100%
+                border-radius: 5px
+        .name-wrapper
+            text-align: center
+            h2
+                font-size: 18px
+                font-weight: 500

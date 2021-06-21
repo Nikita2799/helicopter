@@ -4,7 +4,7 @@ import { Header } from "../Header/Header";
 import { UnderHeader } from "../Header/UnderHeader";
 import "./router.sass";
 import { RoutersMenu } from "./RoutersMenu";
-
+import { ContainerContent } from "./ContainerContent";
 export const RouterPage: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<number>(0);
   return (
@@ -15,7 +15,8 @@ export const RouterPage: React.FC = () => {
         <h1 className="h1">Маршруты полетов</h1>
       </div>
       <div className="container-flex-wrapper">
-        <RoutersMenu />
+        <RoutersMenu setActive={setActiveCategory} active={activeCategory} />
+        <ContainerContent category={activeCategory} />
       </div>
       <div className="routers-wrapper-content"></div>
       <Footer />
