@@ -5,8 +5,65 @@
     background: #262626
     display: flex 
     justify-content:  flex-end
-    padding: 30px 250px
-    ul 
+    padding: 20px 250px
+    .header-info_items
+        min-width: 69%
         display: flex
-        margin: 0
         align-items: center
+        justify-content: space-between
+        .item
+            display: flex
+            align-items: center
+            justify-content: center
+            .header-info_items__phone
+                margin-right: 10px
+            .header-info_oreder-call    
+                color: #FFFF
+                position: relative
+                cursor: pointer
+                &::after
+                    position: absolute
+                    content: ''
+                    border: 0.5px #FFFFFF solid
+                    min-width: 100%
+                    top: 20px 
+                    left: 0
+            .header-info_button
+                    background: #D6B33F;
+                    width: 170px
+                    height: 40px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    border-radius: 10px
+                    cursor: pointer
+                    span 
+                        color: #FFFF 
+        a
+            text-decoration: none
+            color: #FFFF
+        p 
+            margin: 0
+
+.under-header
+    padding: 0 100px
+    .items
+        display: flex
+        align-items: center
+        justify-content: space-between
+        max-width: 71%    
+        .item
+            max-width: 10% 
+            display: flex
+            align-items: center
+            justify-content: center
+            text-align: center
+            p 
+                font-weight: 300       
+    &::after
+        position: absolute
+        content: ''
+        border: 1px #A6A6A6 solid
+        min-width: 81%
+        top: 162px 
+        left: 60px  

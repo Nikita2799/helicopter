@@ -1,12 +1,13 @@
 import React from "react";
 import { Header } from "../Header/Header";
-//import { Footer } from "../Footer/Footer";
+import { UnderHeader } from "../Header/UnderHeader";
+import "./router.sass";
 
 export const RouterPage: React.FC = () => {
   return (
-    <div className="touter-page">
+    <div className="router-page">
       <Header />
-      {/* <Footer /> */}
+      <UnderHeader />
     </div>
   );
 };
