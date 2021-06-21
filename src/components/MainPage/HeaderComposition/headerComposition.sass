@@ -1,0 +1,124 @@
+.header-composition
+    position: relative
+    min-height: 750px
+    height: 100%
+    background-image: url('../../../img/headerComposition/helicopter.png')
+    width: 100%
+    background-repeat: no-repeat
+    background-size: cover
+.header-composition_background
+    opacity: 1
+    background-color: rgba(0, 0, 0, 0.6)
+    width: 100%
+    height: 100%
+    position: absolute 
+.header-info
+    display: flex
+    align-items: center
+    justify-content: space-around
+    padding: 0 33px
+    .header-info_items
+        margin: 25px 0 0 0 
+        min-width: 50%
+    ul
+        display: flex
+        justify-content: space-around
+        align-items: center
+        margin: 0
+        .item
+            display: flex
+            align-items: center
+            justify-content: space-between
+            min-width: 24%
+            .header-info_items__phone
+                padding: 5px 0 0 0 
+        a
+            text-decoration: none
+            color: #FFFF
+        p 
+            margin: 0
+    .header-info_oreder-call
+        color: #FFFF
+        position: relative
+        cursor: pointer
+        &::after
+            position: absolute
+            content: ''
+            border: 1px #FFFFFF solid
+            min-width: 100%
+            top: 20px 
+            left: 0
+    .header-info_button
+        background: #D6B33F;
+        width: 170px
+        height: 40px
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 10px
+        cursor: pointer
+        span 
+            color: #FFFF 
+
+.header-text-wrap
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    max-width: 100%
+    ul
+        display: flex
+        align-items: center
+        justify-content: space-around
+        min-width: 50% 
+        ::after
+            position: absolute
+            content: ''
+            border: 1px #000000 solid
+            min-width: 50%
+            top: 75px 
+            left: 390px  
+    li 
+        max-width: 15%
+        text-align: center    
+        p   
+            color: #FFFF
+            font-weight: 400   
+
+.header-order-wrap
+    padding: 35px 150px
+    .item-order
+        margin: 65px 0
+        h1
+            color: #FFFF
+            font-size: 50px
+            opacity: 1
+        p
+            opacity: 1
+            color:#D6B33F
+            font-size: 25px
+    .button-order
+        background: #D6B33F
+        display: flex
+        align-items: center
+        justify-content: center
+        max-width: 19%
+        height: 65px
+        border-radius: 10px
+        cursor: pointer
+        span
+            color: #FFFF
+
+.header-icon-wrap
+    display: flex
+    align-content: center
+    justify-content: center
+    padding: 85px 0 0 0 
+    .icon-item
+        display: flex
+        justify-content: space-between
+        margin: 0 80px
+        p 
+            color: #FFFF
+            margin: 0 20px
+            font-weight: 300            
