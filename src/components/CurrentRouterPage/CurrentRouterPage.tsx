@@ -2,13 +2,15 @@ import React from "react";
 import { Footer } from "../Footer/Footer";
 import { Header } from "../Header/Header";
 import { UnderHeader } from "../Header/UnderHeader";
-import "./router.sass";
+import "./currentRouter.sass";
+import { InfoComposition } from "./CurrentRouterComposition/InfoComposition";
 
-export const RouterPage: React.FC = () => {
+export const CurrentRouterPage: React.FC = () => {
   return (
-    <div className="router-page">
+    <div className="current-router-page">
       <Header />
       <UnderHeader />
+      <InfoComposition />
       <Footer />
     </div>
   );
