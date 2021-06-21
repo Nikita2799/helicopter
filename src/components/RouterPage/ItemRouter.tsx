@@ -1,5 +1,5 @@
 import React from "react";
-import oclock from "../../img/info/oclock.svg";
+import oclock from "../../img/ock.svg";
 type TProps = {
   content: any;
 };

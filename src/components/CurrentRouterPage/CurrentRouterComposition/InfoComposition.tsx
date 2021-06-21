@@ -2,7 +2,7 @@ import React from "react";
 import "../currentRouter.sass";
 import { routersObject } from "../routersObject";
 import oclock from "../../../img/ock.svg";
-import Select from "react-select";
+//import Select from "react-select";
 
 export const InfoComposition: React.FC = () => {
   return (
