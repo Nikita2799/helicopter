@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Footer } from "../Footer/Footer";
 import { Header } from "../Header/Header";
 import { UnderHeader } from "../Header/UnderHeader";
 import "./router.sass";
@@ -17,6 +18,7 @@ export const RouterPage: React.FC = () => {
         <RoutersMenu />
       </div>
       <div className="routers-wrapper-content"></div>
+      <Footer />
     </div>
   );
 };
